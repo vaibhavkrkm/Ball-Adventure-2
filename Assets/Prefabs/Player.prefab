@@ -16,7 +16,9 @@ GameObject:
   - component: {fileID: 4150175894602642438}
   - component: {fileID: 5978610270855276516}
   - component: {fileID: 8657505319150619860}
+  - component: {fileID: 1854840032349251365}
   - component: {fileID: 4692311095482191155}
+  - component: {fileID: 4936090421442560365}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -205,6 +207,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: b9c87ac0-7197-4086-aed9-7c2b5125e710
     m_ActionName: 'Player/Interact[/Keyboard/e]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4936090421442560365}
+        m_TargetAssemblyTypeName: BallSwitcher, Assembly-CSharp
+        m_MethodName: SwitchBallPerformed
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: c2b5f426-0d7a-4068-b585-2270a4afaa06
+    m_ActionName: 'Player/SwitchBall[/Keyboard/c]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -235,9 +253,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 4692311095482191155}
+  lifeBar: {fileID: 0}
+  playerBallLoader: {fileID: 1854840032349251365}
+  spriteRenderer: {fileID: 7493047960543657610}
   maxLives: 3
   lives: 0
   isInvincible: 0
+--- !u!114 &1854840032349251365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333831255236589114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e188cc42f64801c499aff4e213b4b434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 7493047960543657610}
+  ballDatabase: {fileID: 0}
+  playerMovement: {fileID: 8080908870258376088}
+  currentBall: {fileID: 0}
 --- !u!95 &4692311095482191155
 Animator:
   serializedVersion: 7
@@ -260,6 +297,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4936090421442560365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333831255236589114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3850dcb1f17eddc47baaa07ee9f9fbf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4884304687851278462
 GameObject:
   m_ObjectHideFlags: 0
@@ -271,7 +320,7 @@ GameObject:
   - component: {fileID: 2262157457503179569}
   - component: {fileID: 7493047960543657610}
   m_Layer: 0
-  m_Name: Jumpy
+  m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -333,8 +382,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 11261855
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -8567426541606318104, guid: 5613e136288599d45b709c15055c11f3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

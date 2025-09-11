@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a493a8a7e0c68e4cb31edcce96a79dd, type: 3}
+  m_Name: Splash
+  m_EditorClassIdentifier: 
+  ballName: Splash
+  happySprite: {fileID: -8926194700742857416, guid: ff2f12703e7acce4787c9eec2e817e01, type: 3}
+  veryHappySprite: {fileID: 6430140322881027690, guid: 6ea3f432d9a244d4dafe685fc4c14700, type: 3}
+  sadSprite: {fileID: 7239627356479399611, guid: 09188dc278494d24b8406449e8e04100, type: 3}
+  verySadSprite: {fileID: -8212006678481372770, guid: 6d16e7f49e2f86c40a9f2adad6d52f75, type: 3}
+  surprisedSprite: {fileID: 287010885684312516, guid: d0fefb41ca274634bba22f854d279297, type: 3}
+  confidentSprite: {fileID: -4630231639679361763, guid: 54a756d8e3e87344f92b92fbf29b1023, type: 3}
+  angrySprite: {fileID: -8369181406621812532, guid: a6b2c8f0b1162324e80ef1ba84e3ef77, type: 3}
+  deadSprite: {fileID: 1484845026649221540, guid: b3ebddb90ac49a44f9d65e4ef3f2e31d, type: 3}
+  ballJumpPower: 25
+  ballMaxSpeed: 10
+  ballAcceleration: 35
+  waterImmunity: 1
+  lavaImmunity: 0
+  metalImmunity: 0

@@ -77,8 +77,40 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -855298285791758126, guid: 994288439aacf3145a3e01faf873f174, type: 3}
     - target: {fileID: 2523879577295072300, guid: fce8b303731acd745ac09a647c1d101a, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2523879577295072300, guid: fce8b303731acd745ac09a647c1d101a, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2523879577295072300, guid: fce8b303731acd745ac09a647c1d101a, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2523879577295072300, guid: fce8b303731acd745ac09a647c1d101a, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274980153524130177, guid: fce8b303731acd745ac09a647c1d101a, type: 3}
+      propertyPath: color.b
+      value: 0.13333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274980153524130177, guid: fce8b303731acd745ac09a647c1d101a, type: 3}
+      propertyPath: color.g
+      value: 0.9019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274980153524130177, guid: fce8b303731acd745ac09a647c1d101a, type: 3}
+      propertyPath: color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274980153524130177, guid: fce8b303731acd745ac09a647c1d101a, type: 3}
+      propertyPath: scaleFactor
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274980153524130177, guid: fce8b303731acd745ac09a647c1d101a, type: 3}
+      propertyPath: scaleDivisionFactor
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4405560986231225487, guid: fce8b303731acd745ac09a647c1d101a, type: 3}
       propertyPath: collectibleName
@@ -97,7 +129,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 284488459284626127, guid: fce8b303731acd745ac09a647c1d101a, type: 3}
-      insertIndex: -1
+      insertIndex: 4
       addedObject: {fileID: 5597054801491016857}
   m_SourcePrefab: {fileID: 100100000, guid: fce8b303731acd745ac09a647c1d101a, type: 3}
 --- !u!1 &3383971867834529241 stripped

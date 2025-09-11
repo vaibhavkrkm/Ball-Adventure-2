@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a493a8a7e0c68e4cb31edcce96a79dd, type: 3}
+  m_Name: Jumpy
+  m_EditorClassIdentifier: 
+  ballName: Jumpy
+  happySprite: {fileID: -8567426541606318104, guid: 5613e136288599d45b709c15055c11f3, type: 3}
+  veryHappySprite: {fileID: -521560590701182852, guid: 7701c19881b5ffd47a1618af6effac5b, type: 3}
+  sadSprite: {fileID: -8021962081969048001, guid: 1f11b613438b9ec47979e3695bd23570, type: 3}
+  verySadSprite: {fileID: -478645376140881938, guid: fd5017f53208f8b4ab6a23029aa667f8, type: 3}
+  surprisedSprite: {fileID: 3423927481330787392, guid: 2b02cf27b719c13469027bc9cd064c28, type: 3}
+  confidentSprite: {fileID: 7020764392834090112, guid: db39da45dba39224fa25d217066f40b7, type: 3}
+  angrySprite: {fileID: -726376807350970439, guid: 22666582e2353274394c21ff3611aff1, type: 3}
+  deadSprite: {fileID: -6463576620625704740, guid: 079cd3e0c083dbc4c81f7db8ea5478f5, type: 3}
+  ballJumpPower: 25
+  ballMaxSpeed: 10
+  ballAcceleration: 35
+  specialAbilites: []

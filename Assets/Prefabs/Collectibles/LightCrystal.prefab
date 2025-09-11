@@ -60,6 +60,18 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4274980153524130177, guid: fce8b303731acd745ac09a647c1d101a, type: 3}
+      propertyPath: color.g
+      value: 0.9333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274980153524130177, guid: fce8b303731acd745ac09a647c1d101a, type: 3}
+      propertyPath: color.r
+      value: 0.6666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274980153524130177, guid: fce8b303731acd745ac09a647c1d101a, type: 3}
+      propertyPath: scaleDivisionFactor
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4405560986231225487, guid: fce8b303731acd745ac09a647c1d101a, type: 3}
       propertyPath: collectibleName
       value: Light Crystal

@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "P:\\Unity Projects\\Ball Adventure 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|p:\\unity projects\\ball adventure 2\\assets\\scripts\\helpersignmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\helpersignmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|P:\\Unity Projects\\Ball Adventure 2\\assets\\scripts\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|P:\\Unity Projects\\Ball Adventure 2\\assets\\scripts\\obstaclecollisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstaclecollisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|P:\\Unity Projects\\Ball Adventure 2\\assets\\scripts\\global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|P:\\Unity Projects\\Ball Adventure 2\\assets\\scripts\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|P:\\Unity Projects\\Ball Adventure 2\\assets\\scripts\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|p:\\unity projects\\ball adventure 2\\assets\\scripts\\ballcagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ballcagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|P:\\Unity Projects\\Ball Adventure 2\\assets\\scripts\\ballswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ballswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|P:\\Unity Projects\\Ball Adventure 2\\assets\\scripts\\playerinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|P:\\Unity Projects\\Ball Adventure 2\\assets\\scripts\\playerball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|P:\\Unity Projects\\Ball Adventure 2\\assets\\scripts\\interacttextmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interacttextmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|P:\\Unity Projects\\Ball Adventure 2\\assets\\scripts\\enemycollisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,24 +43,40 @@
       "RelativeMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercollisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|P:\\Unity Projects\\Ball Adventure 2\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|P:\\Unity Projects\\Ball Adventure 2\\assets\\scripts\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|P:\\Unity Projects\\Ball Adventure 2\\assets\\scripts\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|P:\\Unity Projects\\Ball Adventure 2\\assets\\scripts\\collectiblecollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectiblecollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|P:\\Unity Projects\\Ball Adventure 2\\assets\\scripts\\collectiblemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectiblemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|P:\\Unity Projects\\Ball Adventure 2\\assets\\scripts\\spikefallscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spikefallscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|P:\\Unity Projects\\Ball Adventure 2\\assets\\scripts\\obstaclecollisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstaclecollisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|P:\\Unity Projects\\Ball Adventure 2\\assets\\scripts\\helpersignmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\helpersignmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|P:\\Unity Projects\\Ball Adventure 2\\assets\\scripts\\backgroundscrollscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\backgroundscrollscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|P:\\Unity Projects\\Ball Adventure 2\\assets\\scripts\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|P:\\Unity Projects\\Ball Adventure 2\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|P:\\Unity Projects\\Ball Adventure 2\\assets\\scripts\\spikefallscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F932C3D2-CC46-CFBD-5A3C-E95BBD9B27E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spikefallscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,48 +86,159 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HelperSignManager.cs",
-              "DocumentMoniker": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\HelperSignManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\HelperSignManager.cs",
-              "ToolTip": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\HelperSignManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\HelperSignManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "CollectibleCollection.cs",
+              "DocumentMoniker": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\CollectibleCollection.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CollectibleCollection.cs",
+              "ToolTip": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\CollectibleCollection.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CollectibleCollection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T10:50:34.751Z",
+              "WhenOpened": "2025-09-08T13:55:57.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BallSwitcher.cs",
+              "DocumentMoniker": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\BallSwitcher.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BallSwitcher.cs",
+              "ToolTip": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\BallSwitcher.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BallSwitcher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T05:01:58.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BallCageManager.cs",
+              "DocumentMoniker": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\BallCageManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BallCageManager.cs",
+              "ToolTip": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\BallCageManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BallCageManager.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T09:36:20.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InteractTextManager.cs",
+              "DocumentMoniker": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\InteractTextManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractTextManager.cs",
+              "ToolTip": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\InteractTextManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InteractTextManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T09:59:09.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\Utils.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utils.cs",
+              "ToolTip": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\Utils.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T09:27:36.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Global.cs",
+              "DocumentMoniker": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\Global.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Global.cs",
+              "ToolTip": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\Global.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Global.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T04:21:00.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerBall.cs",
+              "DocumentMoniker": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\PlayerBall.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerBall.cs",
+              "ToolTip": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\PlayerBall.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerBall.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T03:44:48.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\LevelManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelManager.cs",
+              "ToolTip": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\LevelManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelManager.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T14:01:38.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerInteractor.cs",
+              "DocumentMoniker": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\PlayerInteractor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInteractor.cs",
+              "ToolTip": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\PlayerInteractor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerInteractor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:31:19.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HelperSignManager.cs",
+              "DocumentMoniker": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\HelperSignManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HelperSignManager.cs",
+              "ToolTip": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\HelperSignManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HelperSignManager.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T10:50:34.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ObstacleCollisions.cs",
               "DocumentMoniker": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\ObstacleCollisions.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObstacleCollisions.cs",
               "ToolTip": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\ObstacleCollisions.cs",
               "RelativeToolTip": "Assets\\Scripts\\ObstacleCollisions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-01T04:10:05.51Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "PlayerStats.cs",
               "DocumentMoniker": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\PlayerStats.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerStats.cs",
               "ToolTip": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\PlayerStats.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerStats.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-29T14:30:40.559Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "EnemyMovement.cs",
               "DocumentMoniker": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\EnemyMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyMovement.cs",
@@ -103,19 +250,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "PlayerCollisions.cs",
               "DocumentMoniker": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\PlayerCollisions.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerCollisions.cs",
               "ToolTip": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\PlayerCollisions.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerCollisions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-29T08:37:45.18Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "EnemyCollisions.cs",
               "DocumentMoniker": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\EnemyCollisions.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyCollisions.cs",
@@ -127,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "CollectibleManager.cs",
               "DocumentMoniker": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\CollectibleManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CollectibleManager.cs",
@@ -139,31 +286,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "BackgroundScrollScript.cs",
               "DocumentMoniker": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\BackgroundScrollScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BackgroundScrollScript.cs",
               "ToolTip": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\BackgroundScrollScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\BackgroundScrollScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-27T09:46:09.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
               "ToolTip": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-25T15:00:23.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "SpikeFallScript.cs",
               "DocumentMoniker": "P:\\Unity Projects\\Ball Adventure 2\\Assets\\Scripts\\SpikeFallScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpikeFallScript.cs",

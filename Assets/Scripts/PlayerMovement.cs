@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (context.performed)
         {
-            if (isGrounded)    // if grounded
+            if (isGrounded)    // if player is grounded
             {
                 StartCoroutine(Jump(maxJumpSpeed));
                 isGrounded = false;    // setting isGrounded to false when jumping starts

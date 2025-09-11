@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a493a8a7e0c68e4cb31edcce96a79dd, type: 3}
+  m_Name: Rocky
+  m_EditorClassIdentifier: 
+  ballName: Rocky
+  happySprite: {fileID: 6202857024633602596, guid: 5cec6c0dd8a76c44485c23e415ccf353, type: 3}
+  veryHappySprite: {fileID: 2290293465212849456, guid: 20b3ff63c00b6ea4895b11fc4f633e3e, type: 3}
+  sadSprite: {fileID: 6766625769672076273, guid: bf42cfc1ca7262c4197464cee407d593, type: 3}
+  verySadSprite: {fileID: 7722071164679919927, guid: 50fa0f41821ef074aa2f7fc833e62e1d, type: 3}
+  surprisedSprite: {fileID: 6902834683459761839, guid: ed9010803c2d8dc4cadf986995b36d33, type: 3}
+  confidentSprite: {fileID: -6845519931122492648, guid: 442704c18514b1246b7c4bd83df8167a, type: 3}
+  angrySprite: {fileID: -7659981207272971661, guid: 53db85c608741074885e7b9b7a44b820, type: 3}
+  deadSprite: {fileID: -5787054148921478556, guid: 0b4475efb3b3822489d3986d63e6f4a2, type: 3}
+  ballJumpPower: 20
+  ballMaxSpeed: 8
+  ballAcceleration: 35
+  waterImmunity: 0
+  lavaImmunity: 0
+  metalImmunity: 1

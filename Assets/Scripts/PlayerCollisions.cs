@@ -10,18 +10,19 @@ public class PlayerCollisions : MonoBehaviour
 
             if (collectible.collectibleName == "Light Crystal")    // what to do if collides with Light Crystal
             {
-
+                CollectibleCollection lightCrystal = collision.gameObject.GetComponent<CollectibleCollection>();
+                lightCrystal.CollectItem();
             }
             else if (collectible.collectibleName == "Heart")    // what to do if collides with Heart
             {
-
+                CollectibleCollection heart = collision.gameObject.GetComponent<CollectibleCollection>();
+                heart.CollectItem();
             }
             else if (collectible.collectibleName == "Coin")    // what to do if collides with Coin
             {
-
+                CollectibleCollection coin = collision.gameObject.GetComponent<CollectibleCollection>();
+                coin.CollectItem();
             }
-
-            Destroy(collision.gameObject);    // destroy the collectible after collecting
         }
     }
 }
