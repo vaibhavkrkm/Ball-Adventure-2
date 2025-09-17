@@ -21,6 +21,13 @@ public class EnemyCollisions : MonoBehaviour
     {
         // make the player take damage
         PlayerStats playerStats = collision.gameObject.GetComponent<PlayerStats>();
-        playerStats.TakeDamage();
+        playerStats.StartTakingDamage();
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        // stop player from taking damage
+        PlayerStats playerStats = collision.gameObject.GetComponent<PlayerStats>();
+        playerStats.StopTakingDamage();
     }
 }

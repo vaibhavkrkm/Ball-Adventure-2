@@ -3,7 +3,7 @@ using UnityEngine;
 
 public static class Global
 {
-    public static string selectedBall = "Jumpy";
+    public static string selectedBall = "Splash";
     public static List<string> unlockedBalls = new List<string>() { "Jumpy" };
 
     public static void UnlockBall(string ballName)

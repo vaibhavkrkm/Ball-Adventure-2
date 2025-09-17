@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Obstacle
   - Friend
+  - Ground
+  - MovingPlatform
   layers:
   - Default
   - TransparentFX
@@ -16,7 +18,7 @@ TagManager:
   - Water
   - UI
   - 
-  - 
+  - Camera
   - Ground
   - Platform
   - Player
@@ -50,9 +52,6 @@ TagManager:
     locked: 0
   - name: LevelObjects
     uniqueID: 1183661209
-    locked: 0
-  - name: Player
-    uniqueID: 11261855
     locked: 0
   m_RenderingLayers:
   - Default

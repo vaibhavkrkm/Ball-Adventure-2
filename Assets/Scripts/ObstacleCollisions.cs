@@ -17,8 +17,17 @@ public class ObstacleCollisions : MonoBehaviour
             if (!immuneCondition)
             {
                 PlayerStats playerStats = collision.gameObject.GetComponent<PlayerStats>();
-                playerStats.TakeDamage(damage);
+                playerStats.StartTakingDamage(damage);
             }
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))    // when player exits the obstacle
+        {
+            PlayerStats playerStats = collision.gameObject.GetComponent<PlayerStats>();
+            playerStats.StopTakingDamage();
         }
     }
 }

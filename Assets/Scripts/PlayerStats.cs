@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
@@ -8,10 +9,12 @@ public class PlayerStats : MonoBehaviour
     public SpriteRenderer spriteRenderer;
 
     public int maxLives = 3;
+    public float hurtAnimationTime = 1.5f;
     [HideInInspector] public int lives;
-    [HideInInspector] public bool isInvincible = false;
+    [HideInInspector] public bool isTakingDamage = false;
 
     private LevelManager levelManager;
+    private Coroutine playerDamageCoroutine;
 
     private void Awake()
     {
@@ -21,32 +24,65 @@ public class PlayerStats : MonoBehaviour
     private void Start()
     {
         lives = maxLives;
-        UpdateLifebar();
     }
 
-    public void TakeDamage(int damage=1)
+    public void StartTakingDamage(int damage=1)
     {
-        // only take damage if not invincible
-        if (!isInvincible)
+        if (!isTakingDamage)
         {
-            isInvincible = true;    // making player invincible for a short time after taking damage
+            isTakingDamage = true;
+            if (playerDamageCoroutine == null)    // only start the coroutine when not already running
+            {
+                playerDamageCoroutine = StartCoroutine(TakeDamage(damage));
+            }
+        }
+    }
+
+    public void StopTakingDamage()
+    {
+        isTakingDamage = false;
+    }
+
+    public IEnumerator TakeDamage(int damage)
+    {
+        while (isTakingDamage)
+        {
             lives -= damage;
-
-            // setting PlayerHurt parameter to true to start the PlayerHurt animation
-            animator.SetBool("PlayerHurt", true);
-
-            // setting sprite to surprised when player takes damage
-            spriteRenderer.sprite = playerBallLoader.currentBall.surprisedSprite;
-
-            // updating lifebar
             UpdateLifebar();
 
+            animator.SetBool("PlayerHurt", true);    // start player hurt animation
+            spriteRenderer.sprite = playerBallLoader.currentBall.surprisedSprite;    // change player sprite to surprised
+
+            // if lives <= 0, perform gameover operation
             if (lives <= 0)
             {
-                // setting sprite to surprised when player takes damage
                 spriteRenderer.sprite = playerBallLoader.currentBall.deadSprite;
                 levelManager.GameOver();
+                yield break;    // stop coroutine
             }
+
+            yield return new WaitForSeconds(hurtAnimationTime + 0.1f);    // wait till invincible
+
+            // stop player hurt animation and change the player sprite back before starting the coroutine again
+            animator.SetBool("PlayerHurt", false);
+            UpdateSpriteBasedOnHealth();
+            yield return null;
+        }
+
+        // setting the playerDamageCoroutine to null before finishing it
+        playerDamageCoroutine = null;
+        yield break;
+    }
+
+    private void UpdateSpriteBasedOnHealth()
+    {
+        if (lives > 1)
+        {
+            spriteRenderer.sprite = playerBallLoader.currentBall.happySprite;
+        }
+        else if (lives == 1)
+        {
+            spriteRenderer.sprite = playerBallLoader.currentBall.sadSprite;
         }
     }
 
@@ -70,26 +106,6 @@ public class PlayerStats : MonoBehaviour
             else
             {
                 lifebarChild.gameObject.SetActive(false);
-            }
-        }
-    }
-
-    public void OnAnimationEnd(string animationName)
-    {
-        if (animationName == "PlayerHurt")
-        {
-            animator.SetBool("PlayerHurt", false);    // setting PlayerHurt parameter to false
-            isInvincible = false;    // making the player vincible
-
-            if (lives > 1)
-            {
-                // setting sprite to happy again
-                spriteRenderer.sprite = playerBallLoader.currentBall.happySprite;
-            }
-            else if (lives == 1)
-            {
-                // setting sprite to happy again
-                spriteRenderer.sprite = playerBallLoader.currentBall.sadSprite;
             }
         }
     }

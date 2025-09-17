@@ -12,7 +12,19 @@ public class PlayerMovement : MonoBehaviour
     public float jumpDuration;
 
     private bool isGrounded;
+    private bool inWater;
     private Vector2 moveInput;
+
+    private float initialGravity;
+    private int initialAcceleration;
+    private int initialMaxJumpSpeed;
+
+    private void Start()
+    {
+        initialGravity = body.gravityScale;
+        initialAcceleration = acceleration;
+        initialMaxJumpSpeed = maxJumpSpeed;
+    }
 
     private void FixedUpdate()
     {
@@ -34,7 +46,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (context.performed)
         {
-            if (isGrounded)    // if player is grounded
+            if (isGrounded || inWater)    // if player is grounded
             {
                 StartCoroutine(Jump(maxJumpSpeed));
                 isGrounded = false;    // setting isGrounded to false when jumping starts
@@ -50,8 +62,9 @@ public class PlayerMovement : MonoBehaviour
     // setting isGrounded to true if player touches ground/platform
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Ground")
-            || collision.gameObject.layer == LayerMask.NameToLayer("Platform"))
+        if (collision.gameObject.CompareTag("Ground")
+            || collision.gameObject.CompareTag("Obstacle")
+            || collision.gameObject.CompareTag("MovingPlatform"))
         {
             isGrounded = true;
         }
@@ -60,33 +73,37 @@ public class PlayerMovement : MonoBehaviour
     // making sure isGrounded is false if player leaves ground/platform
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Ground")
-            || collision.gameObject.layer == LayerMask.NameToLayer("Platform"))
+        if (collision.gameObject.CompareTag("Ground")
+            || collision.gameObject.CompareTag("Obstacle")
+            || collision.gameObject.CompareTag("MovingPlatform"))
         {
             isGrounded = false;
         }
     }
 
-    //private void OnTriggerEnter2D(Collider2D collision)
-    //{
-    //    if (collision.gameObject.layer == LayerMask.NameToLayer("Water"))
-    //    {
-    //        // entering water
-    //        body.gravityScale = 3f;
-    //        acceleration = 15;
-    //        maxJumpSpeed = 15;
-    //    }
-    //}
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Water"))
+        {
+            // entering water
+            inWater = true;
+            body.gravityScale = 3f;
+            acceleration = 15;
+            maxJumpSpeed = 15;
+        }
+    }
 
-    //private void OnTriggerExit2D(Collider2D collision)
-    //{
-    //    if (collision.gameObject.layer == LayerMask.NameToLayer("Water"))
-    //    {
-    //        // exiting water
-    //        print("exiting water");
-    //    }
-    //}
-
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Water"))
+        {
+            // exiting water
+            inWater = false;
+            body.gravityScale = initialGravity;
+            acceleration = initialAcceleration;
+            maxJumpSpeed = initialMaxJumpSpeed;
+        }
+    }
 
     // method to make the player jump forcefully regardless of it is on the ground or not
     public void ForceJump(int maxJumpSpeed)

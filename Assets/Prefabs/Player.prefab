@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 1854840032349251365}
   - component: {fileID: 4692311095482191155}
   - component: {fileID: 4936090421442560365}
+  - component: {fileID: 8195256930106697102}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -257,8 +258,9 @@ MonoBehaviour:
   playerBallLoader: {fileID: 1854840032349251365}
   spriteRenderer: {fileID: 7493047960543657610}
   maxLives: 3
+  hurtAnimationTime: 1.25
   lives: 0
-  isInvincible: 0
+  isTakingDamage: 0
 --- !u!114 &1854840032349251365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -307,6 +309,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3850dcb1f17eddc47baaa07ee9f9fbf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8195256930106697102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333831255236589114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92713c9bb6e24214781bb3b3d5cf1b02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4884304687851278462
@@ -382,9 +396,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 11261855
-  m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingLayerID: 1183661209
+  m_SortingLayer: 1
+  m_SortingOrder: 1
   m_Sprite: {fileID: -8567426541606318104, guid: 5613e136288599d45b709c15055c11f3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
